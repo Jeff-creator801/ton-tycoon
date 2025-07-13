@@ -9,11 +9,26 @@
 </head>
 <body>
   <div class="container">
-    <h1>🏦 TON Tycoon</h1>
-    <div class="balance" id="balance">$0</div>
-    <button id="daily-btn">🎁 Ежедневный бонус</button>
-    <div id="buildings-list"></div>
+    <header>
+      <h1>🏦 TON Tycoon</h1>
+      <div class="balance">
+        <span id="balance">$0</span>
+        <img src="assets/materials/TON.png" width="20" id="ton-balance"> 
+        <span id="ton-amount">0</span>
+      </div>
+    </header>
+
+    <section class="actions">
+      <button id="daily-btn">🎁 Бонус (50$)</button>
+      <button id="buy-ton-btn">Купить 5 TON</button>
+    </section>
+
+    <section class="buildings">
+      <h2>🏗️ Мои здания</h2>
+      <div id="buildings-list"></div>
+    </section>
   </div>
+
   <script src="js/main.js"></script>
 </body>
 </html>
